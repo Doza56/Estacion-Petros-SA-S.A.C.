@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Acerca de Nosotros - Restaurante Peruano</title>
+  <link href="https://fonts.googleapis.com/css?family=Akaya+Kanadaka" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(img/primax.jpg);
+      background-size: cover;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      position: relative;
+      color: black;
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: justify;
+    }
+    /* Animación */
+    @keyframes fade-in {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+   
+    .animated {
+      animation: fade-in 1s ease-in-out;
+    }
+    
+    /* Estilos adicionales */
+    h1 {
+      color: #1a1818;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      color: #0b0a0a;
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    
+    .container {
+      background-color: #cfc6c66c;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(208, 202, 202, 0.971);
+      font-weight: bold;
+      font-family: 'Akaya Kanadaka', cursive;
+    }
+    
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    .arrow-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #33333384;
+      color: #1b19192a;
+      border: none;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    
+    .arrow-button:hover {
+      background-color: #cababa;
+    }
+    
+    .arrow-button::before {
+      content: "\2190";
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="arrow-button"></a>
+    <h1>Acerca de Nosotros</h1>
+    <img src="img/ee.jpeg" alt="Imagen de nuestro restaurante" style="height: 400px;width: auto;">
+    <p class="animated">La Estación de Servicios Petrox "San Sebastian" fue fundada en el año 2000 con el objetivo de brindar un servicio de calidad a todos los conductores que necesitan abastecerse de combustible. Desde entonces, nos hemos esforzado por ofrecer un servicio excepcional y una experiencia positiva para nuestros clientes.
+
+        A lo largo de los años, hemos mantenido un compromiso constante con la excelencia en cada aspecto de nuestro negocio, desde la calidad de los productos que ofrecemos hasta la atención al cliente y el mantenimiento de nuestras instalaciones. Este compromiso ha sido reconocido por nuestros clientes, lo que nos ha permitido seguir creciendo y mejorando.
+        
+        Hoy en día, seguimos siendo una estación de servicios líder en la zona, y estamos orgullosos de haber servido a nuestra comunidad durante más de dos décadas. Agradecemos a nuestros clientes por su confianza y lealtad, y esperamos seguir siendo su opción preferida para el abastecimiento de combustible en el futuro.</p>
+    <p class="animated"></p>
+    <p class="animated"></p>
+    <p class="animated"></p>
+  </div>
+</body>
+</html>
